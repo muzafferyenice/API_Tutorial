@@ -7,7 +7,7 @@ public class GetRequest01 {
 
     @Test
     public void get01(){
-    String url="https://restful-booker.herokuapp.com/booking/";
+    String url="https://restful-booker.herokuapp.com/booking/2607";
 
     Response responce=given().when().get(url);//request gonderildi
 
