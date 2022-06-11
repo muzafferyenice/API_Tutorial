@@ -8,7 +8,9 @@ public class PostRequest01 extends HerOkuAppTestData {
     public void post() {
         String url="https://restful-booker.herokuapp.com/booking";
         HerOkuAppTestData testData = new HerOkuAppTestData();
+
         JSONObject requestData = testData.setUpTestAndRequestData();
+
         Response response = given().contentType(ContentType.JSON).auth()
                 .basic("admin","password123")
                 .body(requestData.toString())

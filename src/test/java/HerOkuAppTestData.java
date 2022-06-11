@@ -15,7 +15,7 @@ public class HerOkuAppTestData {
     public JSONObject setUpTestAndRequestData() {
         JSONObject bookingdates = new JSONObject();
         bookingdates.put("checkin", "2022-03-01");
-        bookingdates.put("checkout", "2022-03-11");
+        bookingdates.put("checkout", "2022-03-01");
         JSONObject requestBody = new JSONObject();
         requestBody.put("firstname", "Ali");
         requestBody.put("lastname", "Can");
